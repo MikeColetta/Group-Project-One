@@ -39,7 +39,7 @@ function getFiveDay() {
                 for (var j = 0; j < numberOfDays; j++) {
                     console.log(data[i].list)
                     var forecastCard = `
-                    <div class="w3-card w3-mobile forecastCard">
+                    <div class="w3-card w3-col m2 l2 w3-mobile forecastCard">
                         <p>${dayjs(data[i].list[index].dt_txt).format('M/D/YYYY')}</p>
                         <img src="http://openweathermap.org/img/wn/${data[i].list[index].weather[0].icon}@2x.png" class="iconImage">
                         <p>Temp: ${data[i].list[index].main.temp} ºF</p>

@@ -25,6 +25,8 @@
 
 * MapBox
 
+* Day.js
+
 ## Project Description
 
 The Relocator is an app for users that want to compare two cities. The app then shows their location, cost of living, and weather data. The Relocator also stores previous user searches for later use. 
